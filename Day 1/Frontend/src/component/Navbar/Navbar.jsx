@@ -4,9 +4,9 @@ import Dashboard from '../Dashboard/Dashboard'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard' ,current: true },
-  { name: 'Login', href: '/', current: false },
-  { name: 'Register', href: '/register', current: false },
+  { name: 'Dashboard', href: '/' ,current: true },
+  { name: 'useer', href: '/userselection' ,current: false},
+
 ]
 
 function classNames(...classes) {
